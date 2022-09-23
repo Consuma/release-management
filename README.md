@@ -15,7 +15,7 @@ It will be used in every project to automate the release process.
 Save the following snippet in a file named `release.yml` in the `.github/workflows` directory of your repository.
 
 ```yaml
-name: Merge and Release Management
+name: Release Management
 
 on:
   workflow_dispatch:
