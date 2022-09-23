@@ -103,7 +103,7 @@ Contributions are welcome! Feel free to open an issue or a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Consuma/actions/blob/main/LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Consuma/release-management/blob/main/LICENSE)
 
 ## Contact
 
