@@ -1,5 +1,5 @@
 # action.yml
-name: 'Release Management'
+name: 'Release Management Action'
 author: 'Sachin Shankar'
 branding:
   icon: 'git-pull-request'
