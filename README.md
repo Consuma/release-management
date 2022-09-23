@@ -68,13 +68,8 @@ jobs:
       uses: actions/checkout@v3
       with:
         fetch-depth: 0
-    - name: Checkout Actions
-      uses: actions/checkout@v3
-      with:
-        repository: Consuma/actions
-        path: create-release
-    - name: Release
-      uses: ./create-release/release-management
+    - name: Release Management
+      uses: Consuma/release-management@v1
       with:
         typeOfRelease: ${{ github.event.inputs.typeOfRelease }}
         version: ${{ github.event.inputs.version }}
