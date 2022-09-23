@@ -1,10 +1,10 @@
 # action.yml
-name: 'Merge and Release Management'
+name: 'Release Management'
 author: 'Sachin Shankar'
 branding:
   icon: 'git-pull-request'
   color: 'purple'
-description: 'Automate merge to main and create a new release'
+description: 'Automate the creation of a tag and a new release'
 inputs:
   typeOfRelease:
     description: 'Type of Release (major, minor, patch, custom)'
