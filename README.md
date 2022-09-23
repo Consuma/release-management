@@ -62,7 +62,6 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    needs: merge
     steps:
     - name: Checkout
       uses: actions/checkout@v3
