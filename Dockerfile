@@ -2,12 +2,13 @@ FROM ubuntu:22.04
 
 RUN apt-get update -y && apt-get upgrade -y
 
-RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-
 RUN apt-get install -y \
     curl \
-    git \
-    git-lfs
+    git
+
+RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+
+RUN apt-get install -y git-lfs
 
 COPY entrypoint.sh /entrypoint.sh
 
